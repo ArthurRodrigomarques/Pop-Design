@@ -1,0 +1,30 @@
+.div-work {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width: 54vw;
+    height: 57vh;
+    transform: translate(-50%, -50%);
+    background-color: rgb(44, 42, 56);
+}
+.div-work h1 {
+    margin: 40px 0 20px 60px;
+}
+.div-work p {
+    margin: 0px 0px 30px 50px;
+    line-height: 30px;
+}
+
+.container-slider2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin: 0 13%;
+}
+.galeria img{
+    width: 140px;
+}
+
+
+
+

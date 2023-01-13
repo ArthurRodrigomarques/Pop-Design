@@ -1,0 +1,52 @@
+.well {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width: 54vw;
+    height: 57vh;
+    transform: translate(-50%, -50%);
+    background-color: rgb(44, 42, 56);
+}
+
+.left {
+    width: 45%;
+    margin: 40px;
+  
+}
+.left h1{
+    font-weight: 100;
+}
+.left img {
+    padding:20px 0 ;
+    width: 300px;
+}
+.left p {
+    line-height: 30px;
+    font-size: 15px;
+    color: rgb(214, 214, 214);
+}
+
+
+.right {
+    width: 45%;
+  margin: 60px 20px 0 0;
+}
+.close{ 
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+.right p {
+    line-height: 30px;
+    font-size: 15px;
+    color: rgb(214, 214, 214);
+}
+.right img {
+    width: 300px;
+}
+
+#active {
+    display: none;
+}
