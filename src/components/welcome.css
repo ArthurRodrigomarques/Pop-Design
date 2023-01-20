@@ -9,26 +9,26 @@
     background-color: rgb(44, 42, 56);
 }
 
-.left {
+.leftwell {
     width: 45%;
     margin: 40px;
   
 }
-.left h1{
+.leftwell h1{
     font-weight: 100;
 }
-.left img {
+.leftwell img {
     padding:20px 0 ;
     width: 300px;
 }
-.left p {
+.leftwell p {
     line-height: 30px;
     font-size: 15px;
     color: rgb(214, 214, 214);
 }
 
 
-.right {
+.rightwell {
     width: 45%;
   margin: 60px 20px 0 0;
 }
@@ -38,12 +38,12 @@
     right: 2%;
     cursor: pointer;
 }
-.right p {
+.rightwell p {
     line-height: 30px;
     font-size: 15px;
     color: rgb(214, 214, 214);
 }
-.right img {
+.rightwell img {
     width: 300px;
 }
 

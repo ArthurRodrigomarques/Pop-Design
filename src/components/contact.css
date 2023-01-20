@@ -1,0 +1,50 @@
+.div-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width: 54vw;
+    height: 70vh;
+    transform: translate(-50%, -50%);
+    background-color: rgb(44, 42, 56);
+}
+
+.div-contact h1{
+    margin:40px 40px 30px 70px ;
+}
+.div-contact p {
+    margin:0px 40px 0px 70px ;
+}
+.inputs {
+    margin:0px 40px 30px 56px ;
+}
+#mensagem {
+    background-color: rgb(57, 65, 77);
+    border: none;
+    width:28vw;
+    padding:20px 200px 150px 20px;
+    margin-left:15px ;
+word-break: break-all;
+}
+.inputs-1 {
+    display: flex;
+    width: 100%;
+   justify-content:space-around;
+}
+.inputs-1 input {
+    width: 45%;
+    height: 40px;
+    text-indent: 15px;
+    margin: 30px 0;
+    background-color: rgb(57, 65, 77);
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #3639ff;
+}
+
+.button {
+    background-color: #3639ff;
+    margin-left: 15px;
+}

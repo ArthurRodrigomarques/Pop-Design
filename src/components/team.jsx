@@ -5,7 +5,7 @@ import{AiFillCloseCircle} from 'react-icons/ai'
 import './team.css'
 
 
-const team = () => {
+const team = ({onClose}) => {
   return (
     <div className='div-team'>
         <div className="leftteam">
@@ -19,7 +19,7 @@ const team = () => {
             <button className='button'>Read More</button>
         </div>
         <div className="rightteam">
-        <AiFillCloseCircle size={28} className='close'/>
+        <AiFillCloseCircle onClick={onClose} size={28} className='close'/>
         <img src={ImgTeam}/>
         </div>
     </div>

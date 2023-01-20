@@ -35,28 +35,29 @@ const Inicial = () => {
            <p>New HTML Template with pop up pages <br /> and use this layout for your website</p>
         </div>
 
-          {welOpen && <Welcome />}
-          {teamOpen && <Team />}
-          {workOpen && <Work/> }
-          {contactOpen && <Contact/>}
+          {welOpen ? <Welcome onClose={() => setWelOpen(false)}/>  : null}
+          {teamOpen ?  <Team onClose={() => setTeamOpen(false)}/> : null}
+          {workOpen ? <Work  onClose={() => setWorkOpen(false)}/> : null}
+          {contactOpen ? <Contact onClose={() => setContactOpen(false)}/> : null}
         <div className="elements">
 
-          <div onClick={() => setWelOpen(!welOpen)} className="all-click">
+          
+          <div onClick={() => setWelOpen(true)} className="all-click">
              <FaHome  size={50} className="icon" />
              <p>welcome</p>
           </div>
 
-          <div onClick={() => setTeamOpen(!teamOpen)} className="all-click">
+          <div onClick={() => setTeamOpen(true)} className="all-click">
               <IoIosPeople size={50} className="icon"/>
               <p>Our Team</p>
           </div>
 
-          <div  onClick={() => setWorkOpen(!workOpen)} className="all-click">
+          <div  onClick={() => setWorkOpen(true)} className="all-click">
               <FaHandshake size={50} className="icon"/>
               <p>Our Work</p>
           </div>
 
-          <div onClick={() => setContactOpen(!contactOpen)}  className="all-click">
+          <div onClick={() => setContactOpen(true)}  className="all-click">
               <ImBubbles size={50} className="icon"/>
               <p>Contact</p>
           </div>
