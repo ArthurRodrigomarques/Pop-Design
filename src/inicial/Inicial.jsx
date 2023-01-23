@@ -1,12 +1,13 @@
+// hooks
 import React from 'react'
 import { useState } from 'react'
-
+// imgs
 import underline from '../img/underline.png'
 import {FaHome} from 'react-icons/fa'
 import {IoIosPeople} from 'react-icons/io'
 import {FaHandshake} from 'react-icons/fa'
 import {ImBubbles} from 'react-icons/im'
-
+// components
 import Welcome  from '../components/welcome'
 import Team from '../components/team'
 import Work from '../components/work'

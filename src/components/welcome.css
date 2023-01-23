@@ -3,14 +3,14 @@
     position: absolute;
     top: 50%;
     left: 50%; 
-    width: 54vw;
+    width: 60vw;
     height: 57vh;
     transform: translate(-50%, -50%);
     background-color: rgb(44, 42, 56);
 }
 
 .leftwell {
-    width: 45%;
+    width: 40%;
     margin: 40px;
   
 }
@@ -19,7 +19,7 @@
 }
 .leftwell img {
     padding:20px 0 ;
-    width: 300px;
+    width: 100%;
 }
 .leftwell p {
     line-height: 30px;
@@ -29,7 +29,7 @@
 
 
 .rightwell {
-    width: 45%;
+    width: 40%;
   margin: 60px 20px 0 0;
 }
 .close{ 
@@ -44,9 +44,20 @@
     color: rgb(214, 214, 214);
 }
 .rightwell img {
-    width: 300px;
+    width: 100%;
 }
 
-#active {
-    display: none;
+
+@media screen and (max-width:800px) {
+    .well {
+     width: 90%;
+     flex-wrap: wrap;
+     height: auto;
+    }
+    .leftwell {
+        width: 80%; 
+    }
+    .rightwell {
+        width: 80%;
+    }
 }
